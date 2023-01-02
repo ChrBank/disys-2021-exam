@@ -1,4 +1,10 @@
 # disys-2021-exam
+run server/server.go
+Then follow by a 1, 2, or 3.
+
+then run client/client.go
+then give a name
+
 ## What system model are you assuming in your implementation. Write a full desciption.
     I am assuming a system model with only crash failures.
     I won't assume that a server or client can recover after crashes, a new one have to be started instead.
